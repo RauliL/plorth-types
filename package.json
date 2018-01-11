@@ -4,6 +4,14 @@
   "description": "TypeScript type declarations for Plorth programming language",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RauliL/plorth-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RauliL/plorth-types/issues"
+  },
+  "homepage": "https://github.com/RauliL/plorth-types",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
