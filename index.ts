@@ -36,6 +36,8 @@ export enum PlorthErrorCode {
 
 export interface PlorthValue {
   type: PlorthValueType;
+  start?: number;
+  end?: number;
 }
 
 export interface PlorthError extends PlorthValue {
