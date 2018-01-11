@@ -84,7 +84,8 @@ export interface PlorthSymbol extends PlorthValue {
 
 export interface PlorthQuote extends PlorthValue {
   type: PlorthValueType.QUOTE;
-  values: Array<PlorthValue | null>;
+  values?: Array<PlorthValue | null>;
+  callback?: (...args: any[]) => any;
 }
 
 export interface PlorthWord extends PlorthValue {
