@@ -1,0 +1,18 @@
+{
+  "name": "plorth-types",
+  "version": "1.0.0",
+  "description": "TypeScript type declarations for Plorth programming language",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Rauli Laine <rauli.laine@iki.fi>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
